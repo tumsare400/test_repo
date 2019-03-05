@@ -8,12 +8,12 @@ public class Calculator{
    }
 
     public  static void DIVISION (int number1, int number2){
-if(number2==0)
+    if(number2==0)
      System.out.println("division should not be 0");
-else
+     else
     System.out.println("division="+(number1/number2) );
 
-
+   }
    public  static void Substraction (int number1, int number2){
      System.out.println("Substraction="+(number1-number2));
    }
